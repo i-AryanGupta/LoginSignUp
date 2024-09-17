@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B51C19E2C9812FE0094BB71 /* UIViewController_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B51C19D2C9812FE0094BB71 /* UIViewController_Extension.swift */; };
+		2B51C1C02C98347B0094BB71 /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B51C1BF2C98347B0094BB71 /* String + Extension.swift */; };
+		2B6B65EA2C9946DF005028D6 /* SignUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6B65E92C9946DF005028D6 /* SignUpTableViewController.swift */; };
 		2B95574D2C9702BF0030BE6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B95574C2C9702BF0030BE6C /* AppDelegate.swift */; };
 		2B95574F2C9702BF0030BE6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B95574E2C9702BF0030BE6C /* SceneDelegate.swift */; };
 		2B9557512C9702BF0030BE6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9557502C9702BF0030BE6C /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B51C19D2C9812FE0094BB71 /* UIViewController_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController_Extension.swift; sourceTree = "<group>"; };
+		2B51C1BF2C98347B0094BB71 /* String + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		2B6B65E92C9946DF005028D6 /* SignUpTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTableViewController.swift; sourceTree = "<group>"; };
 		2B9557492C9702BF0030BE6C /* LoginSignUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginSignUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B95574C2C9702BF0030BE6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B95574E2C9702BF0030BE6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +45,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B51C1C12C9834FE0094BB71 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2B51C1BF2C98347B0094BB71 /* String + Extension.swift */,
+				2B51C19D2C9812FE0094BB71 /* UIViewController_Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2B6B65E72C99469F005028D6 /* LoginUI */ = {
+			isa = PBXGroup;
+			children = (
+				2B9557642C9705D80030BE6C /* LoginTableTableViewController.swift */,
+			);
+			path = LoginUI;
+			sourceTree = "<group>";
+		};
+		2B6B65E82C9946AE005028D6 /* SignUp UI */ = {
+			isa = PBXGroup;
+			children = (
+				2B6B65E92C9946DF005028D6 /* SignUpTableViewController.swift */,
+			);
+			path = "SignUp UI";
+			sourceTree = "<group>";
+		};
 		2B9557402C9702BF0030BE6C = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +89,13 @@
 		2B95574B2C9702BF0030BE6C /* LoginSignUp */ = {
 			isa = PBXGroup;
 			children = (
+				2B6B65E82C9946AE005028D6 /* SignUp UI */,
+				2B6B65E72C99469F005028D6 /* LoginUI */,
+				2B51C1C12C9834FE0094BB71 /* Extensions */,
 				2B95574C2C9702BF0030BE6C /* AppDelegate.swift */,
 				2B95574E2C9702BF0030BE6C /* SceneDelegate.swift */,
 				2B9557502C9702BF0030BE6C /* ViewController.swift */,
 				2B9557522C9702BF0030BE6C /* Main.storyboard */,
-				2B9557642C9705D80030BE6C /* LoginTableTableViewController.swift */,
 				2B9557552C9702C20030BE6C /* Assets.xcassets */,
 				2B9557572C9702C20030BE6C /* LaunchScreen.storyboard */,
 				2B95575A2C9702C20030BE6C /* Info.plist */,
@@ -143,8 +176,11 @@
 			files = (
 				2B9557512C9702BF0030BE6C /* ViewController.swift in Sources */,
 				2B95574D2C9702BF0030BE6C /* AppDelegate.swift in Sources */,
+				2B51C1C02C98347B0094BB71 /* String + Extension.swift in Sources */,
 				2B9557652C9705D80030BE6C /* LoginTableTableViewController.swift in Sources */,
+				2B6B65EA2C9946DF005028D6 /* SignUpTableViewController.swift in Sources */,
 				2B95574F2C9702BF0030BE6C /* SceneDelegate.swift in Sources */,
+				2B51C19E2C9812FE0094BB71 /* UIViewController_Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
